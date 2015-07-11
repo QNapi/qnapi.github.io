@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700&subset=latin-ext,latin");
 @import url("font-awesome.min.css");
 
 /*
@@ -1250,14 +1250,14 @@
 			width: 100%;
 		}
 
-			table.default tr {
+/*			table.default tr {
 				border-top: solid 1px #eee;
 			}
 
 				table.default tr:first-child {
 					border-top: 0;
 				}
-
+*/
 			table.default td {
 				padding: 0.5em 1em 0.5em 1em;
 			}
