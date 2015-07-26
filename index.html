@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/zSlider/zSlider.css">
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -128,12 +130,72 @@
 								</ul>
 							</div>
 							<div class="5u 12u(mobile)">
-								<img src="images/screenshots/0.1.7/lin02.png" alt="" class="image fit" />
+								<div id="gallery1">
+								  <ul class="z-slide-content">
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/lin01.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/win04.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/lin02.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/lin06.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/osx01.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/win06.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/osx02.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/lin05.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/osx06.png" alt="" class="image fit" />
+								    </li>
+								 	<li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/lin04.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/win01.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/osx03.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/win05.png" alt="" class="image fit" />
+								    </li>
+								  </ul>
+								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="6u 12u(mobile)">
-								<img src="images/screenshots/0.1.7/osx05.png" alt="" class="image fit" />
+								<div id="gallery2">
+								  <ul class="z-slide-content">
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/win02.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/lin03.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/osx04.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/win03.png" alt="" class="image fit" />
+								    </li>
+								    <li class="z-slide-item">
+										<img src="images/screenshots/0.1.7/osx05.png" alt="" class="image fit" />
+								    </li>
+								  </ul>
+								</div>
 							</div>
 							<div class="6u 12u(mobile)">
 								<h4>Cechy programu</h4>
@@ -141,7 +203,6 @@
 									<li>łatwa, intuicyjna obsługa</li>
 									<li>duża skuteczność w wyszukiwaniu napisów</li>
 									<li>projekt open-source</li>
-
 								</ul>
 							</div>
 						</div>
@@ -283,6 +344,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/zSlider/zSlider.min.js"></script>
 
 			<script>
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -292,6 +354,38 @@
 
 			  ga('create', 'UA-65019497-1', 'auto');
 			  ga('send', 'pageview');
+
+			</script>
+
+			<script>
+				var slider1 = new Slider('#gallery1', '.z-slide-item', {
+				    // initial slide
+				    'current': 0,
+				    // animation speed
+				    'duration': 0.2, 
+				    // min percentage to trigger the slide
+				    'minPercentToSlide': null,
+				    // auto play
+				    'autoplay': true,
+				    // slide direction
+				    'direction': 'left',
+				    // autoplay interval
+				    'interval': 6
+				});
+				var slider2 = new Slider('#gallery2', '.z-slide-item', {
+				    // initial slide
+				    'current': 0,
+				    // animation speed
+				    'duration': 0.2, 
+				    // min percentage to trigger the slide
+				    'minPercentToSlide': null,
+				    // auto play
+				    'autoplay': true,
+				    // slide direction
+				    'direction': 'left',
+				    // autoplay interval
+				    'interval': 7
+				});
 
 			</script>
 	</body>
