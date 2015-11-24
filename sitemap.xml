@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
-  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url> 
-    <loc>http://qnapi.github.io</loc> 
+    <loc>http://qnapi.github.io</loc>
     <image:image>
        <image:loc>http://qnapi.github.io/images/qnapi-128.pnghttp://qnapi.github.io/images/qnapi-128.png</image:loc>
        <image:caption>QNapi</image:caption>
     </image:image>
- </url>
- <url> 
-    <loc>http://qnapi.github.io/#news</loc> 
- </url>
- <url> 
-    <loc>http://qnapi.github.io/#download</loc> 
- </url>
- <url> 
-    <loc>http://qnapi.github.io/#help</loc> 
- </url>
+    <mobile:mobile/>
+  </url>
 </urlset>
+
