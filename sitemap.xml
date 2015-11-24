@@ -10,5 +10,17 @@
     </image:image>
     <mobile:mobile/>
   </url>
+  <url> 
+    <loc>http://qnapi.github.io/#news</loc>
+    <mobile:mobile/>
+  </url>
+  <url> 
+    <loc>http://qnapi.github.io/#download</loc>
+    <mobile:mobile/>
+  </url>
+  <url> 
+    <loc>http://qnapi.github.io/#help</loc>
+    <mobile:mobile/>
+  </url>
 </urlset>
 
