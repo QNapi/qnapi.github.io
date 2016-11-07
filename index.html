@@ -15,6 +15,24 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<link rel="icon" href="images/qnapi-48.png" />
+		<style type="text/css">
+			.console {
+				background-color: #282828;
+				color: white;
+				padding: 0.6em 0.8em;
+				text-align: left;
+				text-shadow: none;
+				font-size: 8pt;
+				font-family: 'Source Code Pro', monospace;
+				line-height: 1.4em;
+				overflow-x: auto;
+			}
+			.pkgicon {
+				width:1.2em;
+				height:1.2em;
+				vertical-align: middle;
+			}
+		</style>
 	</head>
 	<body>
 
@@ -326,6 +344,14 @@
 											<span class="icon fa-download"></span> Pobierz
 										</a>
 									</p>
+									<p style="margin-bottom: 0.5em">
+										Lub jeśli korzystasz z
+										<nobr>
+											<a href="http://brew.sh">
+											<img src="images/homebrew.png" class="pkgicon" />Homebrew</a>:
+										</nobr>
+									</p>
+									<pre class="code console">brew cask install qnapi</pre> 
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
@@ -338,6 +364,24 @@
 											<span class="icon fa-download"></span> Pobierz
 										</a>
 									</p>
+									<p style="margin-bottom: 0.5em">
+										<a href="https://aur.archlinux.org/packages/qnapi">PKGBUILD</a> dla
+										<nobr>
+											<a href="http://www.archlinux.org"><img src="images/archlinux.png" class="pkgicon" />ArchLinux</a>.
+										</nobr>
+										
+									</p>
+									<p style="margin-bottom: 0.5em">
+										Pakiety <a href="https://launchpad.net/~krzemin/+archive/ubuntu/qnapi">PPA</a> dla
+										<nobr>
+											<a href="http://www.ubuntu.com">
+											<img src="images/ubuntu.png" class="pkgicon" />Ubuntu</a>:
+										</nobr>
+									</p>
+<pre class="code console">sudo add-apt-repository ppa:krzemin/qnapi
+sudo apt-get update
+sudo apt-get install qnapi</pre> 
+
 								</section>
 							</div>
 						</div>
