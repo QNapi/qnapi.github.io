@@ -42,13 +42,15 @@
 					<img src="images/qnapi-48.png" alt="QNapi" />
 				</a>
 				<ul class="container">
-					<li><a href="#news">nowości</a></li>
-					<li><a href="#description">poznaj</a></li>
-					<li><a href="#download">pobierz</a></li>
-					<li><a href="#help">pomoc</a></li>
-					<li><a href="#donate">wesprzyj</a></li>
+					<li><a href="#news" class="trn">nowości</a></li>
+					<li><a href="#description" class="trn">poznaj</a></li>
+					<li><a href="#download" class="trn">pobierz</a></li>
+					<li><a href="#help" class="trn">pomoc</a></li>
+					<li><a href="#donate" class="trn">wesprzyj</a></li>
 					<li><a href="https://github.com/QNapi/qnapi" class="icon fa-github"><span class="label">Github</span></a></li>
 					<li><a href="http://twitter.com/@q_napi" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a nohref="" onclick="translator.lang('en');"><img src="images/en.png" alt="English" /></a></li>
+					<li><a nohref="" onclick="translator.lang('pl');"><img src="images/pl.png" alt="Polish" /></a></li>
 				</ul>
 			</nav>
 
@@ -64,15 +66,14 @@
 								<h1><strong>QNapi</strong></h1>
 							</header>
 							<p>
-								<strong>Program do pobierania i automatycznego dopasowywania napisów do filmów. 
-								Działa pod Linuksem, OSX i Windowsem.</strong>
+								<strong class="trn">Program do pobierania i automatycznego dopasowywania napisów do filmów. Działa pod Linuksem, OSX i Windowsem.</strong>
 							</p>
 
 							<a href="#download" class="button big scrolly">
-								<span class="icon fa-download"></span> Pobierz teraz
+								<span class="icon fa-download"></span> <span class="trn">Pobierz teraz</span>
 							</a>
 
-							<p>lub <a href="#description">dowiedz się więcej...</a></p>
+							<p><span class="trn">lub</span> <a href="#description" class="trn">dowiedz się więcej...</a></p>
 						</div>
 					</div>
 				</article>
@@ -82,7 +83,7 @@
 		<!-- Nowości -->
 			<div class="wrapper style4">
 				<header>
-					<h2>Nowości</h2>
+					<h2 class="trn">Nowości</h2>
 				</header>
 				<article class="container 60%" id="news">
 					<div class="row">
@@ -91,30 +92,28 @@
 								<tr>
 									<td><u>22.10.2016</u></td>
 									<td>
-										QNapi w wersji 0.2.2 wydane. 
-										<a href="https://github.com/QNapi/qnapi/releases/tag/0.2.2">Pełna lista zmian</a>
+										<span class="trn">QNapi w wersji 0.2.2 wydane.</span>
+										<a href="https://github.com/QNapi/qnapi/releases/tag/0.2.2" class="trn">Pełna lista zmian</a>
 									</td>
 								</tr>
 
 								<tr>
 									<td><u>06.01.2016</u></td>
 									<td>
-										QNapi w wersji 0.2.1 wydane. 
-										<a href="https://github.com/QNapi/qnapi/releases/tag/0.2.1">Pełna lista zmian</a>
+										<span class="trn">QNapi w wersji 0.2.1 wydane.</span>
+										<a href="https://github.com/QNapi/qnapi/releases/tag/0.2.1" class="trn">Pełna lista zmian</a>
 									</td>
 								</tr>
 
 								<tr>
 									<td><u>22.11.2015</u></td>
 									<td>
-										QNapi 0.2.0 wydane! W tej wersji dużo poprawek do błędów znalezionych przez użytkowników,
-										wsparcie dla ekranów retina na OSX i możliwośc włączenia "cichego" trybu przy pobieraniu
-										napisów z menu kontekstowego.
-										<a href="https://github.com/QNapi/qnapi/releases/tag/0.2.0">Pełna lista zmian</a>
+										<span class="trn">QNapi 0.2.0 wydane! W tej wersji dużo poprawek do błędów znalezionych przez użytkowników, wsparcie dla ekranów retina na OSX i możliwośc włączenia cichego trybu przy pobieraniu napisów z menu kontekstowego.</span>
+										<a href="https://github.com/QNapi/qnapi/releases/tag/0.2.0" class="trn">Pełna lista zmian</a>
 									</td>
 								</tr>
 
-								<tr>
+								<!-- <tr>
 									<td><u>26.08.2015</u></td>
 									<td>
 										Nowa wersja QNapi - 0.1.9! A w niej długo oczekiwana możliwość konwersji pomiędzy formatami napisów.
@@ -135,14 +134,12 @@
 										Wydano wersję 0.1.7 wprowadzającą m.in. QT5 i silnik dla Napisy24.
 										<a href="https://github.com/QNapi/qnapi/releases/tag/0.1.7">Pełna lista zmian</a>
 									</td>
-								</tr>
+								</tr> -->
 							</table>
 						</div>
 						<div class="6u 12u(mobile)">
 							<header>
-								<h4>
-									Chcę otrzymywać powiadomienia o nowych wersjach
-								</h4>
+								<h4 class="trn">Chcę otrzymywać powiadomienia o nowych wersjach</h4>
 							</header>
 
 							<div class="row">
@@ -152,12 +149,12 @@
 <form action="http://github.us11.list-manage.com/subscribe/post?u=50ed04413af6868d32e22f940&amp;id=a0090885a2" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 	<div class="row">
 		<div class="12u">
-			<input type="text" value="" name="EMAIL" placeholder="wpisz adres e-mail" required>
+			<input type="text" value="" name="EMAIL" placeholder="e-mail" required>
 		</div>
 	</div>
 	<div class="row">
 		<div class="12u">
-			<input type="submit" value="Zapisz" name="subscribe" class="buttoni big alt">
+			<button type="submit" name="subscribe" class="buttoni big alt trn">Zapisz</button>
 		</div>
 	</div>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -177,13 +174,8 @@
 			<div class="wrapper style1">
 				<article id="description" class="container 85%">
 					<header>
-						<h2>Poznaj QNapi</h2>
-						<p>
-							Program QNapi służy do automatycznego pobierania i dopasowywania napisów do konkretnego pliku
-							z filmem. W odróżnieniu od podobnych programów, QNapi odpytuje kilka różnych baz z napisami, aby znaleźć
-							najlepsze napisy dla Twojego filmu. Ponadto, dzięki bibliotece QT, program działa na różnych systemach
-							operacyjnych (Windows, OSX, Linux).
-						</p>
+						<h2 class="trn">Poznaj QNapi</h2>
+						<p class="trn">Program QNapi służy do automatycznego pobierania i dopasowywania napisów do konkretnego pliku z filmem. W odróżnieniu od podobnych programów, QNapi odpytuje kilka różnych baz z napisami, aby znaleźć najlepsze napisy dla Twojego filmu. Ponadto, dzięki bibliotece QT, program działa na różnych systemach operacyjnych (Windows, OSX, Linux).</p>
 
 					</header>
 					<div class="container">
@@ -191,34 +183,34 @@
 							<div class="4u 12u(mobile)">
 								<article class="box style1">
 									<a href="http://www.napiprojekt.pl"><img src="images/napiprojekt.jpg" style="max-width: 15em;" alt="" /></a>
-									<p>Program korzysta z bazy napisów <a href="http://www.napiprojekt.pl">NapiProjekt</a></p>
+									<p><span class="trn">Program korzysta z bazy napisów</span> <a href="http://www.napiprojekt.pl">NapiProjekt</a></p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style1">
 									<a href="http://www.opensubtitles.org"><img src="images/opensubtitles.gif" style="max-width: 15em;" alt="" /></a>
-									<p>Program korzysta z bazy napisów <a href="http://www.opensubtitles.org">OpenSubtitles</a></p>
+									<p><span class="trn">Program korzysta z bazy napisów</span> <a href="http://www.opensubtitles.org">OpenSubtitles</a></p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style1">
 									<a href="http://www.napisy24.pl"><img src="images/napisy24.gif" style="max-width: 15em;" alt="Napisy24" /></a>
-									<p>Program korzysta z bazy napisów <a href="http://www.napisy24.pl">Napisy24</a></p>
+									<p><span class="trn">Program korzysta z bazy napisów</span> <a href="http://www.napisy24.pl">Napisy24</a></p>
 								</article>
 							</div>
 						</div>
 						<div class="row">
 							<div class="7u 12u(mobile)">
-								<h4>Możliwości programu</h4>
+								<h4 class="trn">Możliwości programu</h4>
 								<ul>
-									<li>dopasowywanie napisów do konkretnego pliku filmowego</li>
-									<li>automatyczne dopasowanie najlepszych napisów</li>
-									<li>wybór formatu napisów (SRT, mDVD, TMP, MPL2), możliwość ręcznej konwersji</li>
-									<li>możliwość wyboru napisów, gdy znaleziono kilka pasujących</li>
-									<li>wybór języka napisów spośród kilkudziesięciu obsługiwanych</li>
-									<li>skanowanie katalogów i masowe dopasowywanie napisów do wielu filmów</li>
-									<li>przetwarzanie napisów: zmiana kodowania znaków, ustawianie uprawnień</li>
-									<li>działanie z terminala (na systemach Linux/Unix)</li>
+									<li class="trn">dopasowywanie napisów do konkretnego pliku filmowego</li>
+									<li class="trn">automatyczne dopasowanie najlepszych napisów</li>
+									<li class="trn">wybór formatu napisów (SRT, mDVD, TMP, MPL2), możliwość ręcznej konwersji</li>
+									<li class="trn">możliwość wyboru napisów, gdy znaleziono kilka pasujących</li>
+									<li class="trn">wybór języka napisów spośród kilkudziesięciu obsługiwanych</li>
+									<li class="trn">skanowanie katalogów i masowe dopasowywanie napisów do wielu filmów</li>
+									<li class="trn">przetwarzanie napisów: zmiana kodowania znaków, ustawianie uprawnień</li>
+									<li class="trn">działanie z terminala (na systemach Linux/Unix)</li>
 								</ul>
 							</div>
 							<div class="5u 12u(mobile)">
@@ -290,17 +282,17 @@
 								</div>
 							</div>
 							<div class="6u 12u(mobile)">
-								<h4>Cechy programu</h4>
+								<h4 class="trn">Cechy programu</h4>
 								<ul>
-									<li>łatwa, intuicyjna obsługa</li>
-									<li>duża skuteczność w wyszukiwaniu napisów</li>
-									<li>projekt open-source</li>
+									<li class="trn">łatwa, intuicyjna obsługa</li>
+									<li class="trn">duża skuteczność w wyszukiwaniu napisów</li>
+									<li class="trn">projekt open-source</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 					<footer>
-						<p>Z QNapi oszczędzasz czas potrzebny na znalezienie napisów do filmu.</p>
+						<p class="trn">Z QNapi oszczędzasz czas potrzebny na znalezienie napisów do filmu.</p>
 					</footer>
 				</article>
 			</div>
@@ -309,8 +301,8 @@
 			<div class="wrapper style3">
 				<article id="download">
 					<header>
-						<h2>Pobierz program</h2>
-						<p>wybierz wersję dla swojego systemu operacyjnego</p>
+						<h2 class="trn">Pobierz program</h2>
+						<p class="trn">wybierz wersję dla swojego systemu operacyjnego</p>
 					</header>
 					<div class="container">
 						<div class="row">
@@ -319,16 +311,16 @@
 									<span class="icon featured fa-windows"></span>
 									<h3>Windows</h3>
 									<p>
-										<strong>0.2.2</strong> - instalator (.exe)
+										<strong>0.2.2</strong> - <span class="trn">instalator (.exe)</span>
 										<a href="https://github.com/QNapi/qnapi/releases/download/0.2.2/QNapi-0.2.2-setup.exe" class="button scrolly">
-											<span class="icon fa-download"></span> Pobierz
+											<span class="icon fa-download"></span> <span class="trn">Pobierz</span>
 										</a>
 									</p>
 
 									<p>
-										<strong>0.2.2</strong> - archiwum przenośne (.zip)
+										<strong>0.2.2</strong> - <span class="trn">archiwum przenośne (.zip)</span>
 										<a href="https://github.com/QNapi/qnapi/releases/download/0.2.2/QNapi-0.2.2-portable.zip" class="button scrolly">
-											<span class="icon fa-download"></span> Pobierz
+											<span class="icon fa-download"></span> <span class="trn">Pobierz</span>
 										</a>
 									</p>
 									
@@ -339,13 +331,13 @@
 									<span class="icon featured fa-apple"></span>
 									<h3>OSX</h3>
 									<p>
-										<strong>0.2.2</strong> - archiwum (.dmg)
+										<strong>0.2.2</strong> - <span class="trn">archiwum (.dmg)</span>
 										<a href="https://github.com/QNapi/qnapi/releases/download/0.2.2/QNapi-0.2.2.dmg" class="button scrolly">
-											<span class="icon fa-download"></span> Pobierz
+											<span class="icon fa-download"></span> <span class="trn">Pobierz</span>
 										</a>
 									</p>
 									<p style="margin-bottom: 0.5em">
-										Lub jeśli korzystasz z
+										<span class="trn">Lub jeśli korzystasz z</span>
 										<nobr>
 											<a href="http://brew.sh"><img src="images/homebrew.png" class="pkgicon" />Homebrew</a><a href="http://caskroom.github.io">Cask</a>:
 										</nobr>
@@ -358,20 +350,20 @@
 									<span class="icon featured fa-linux"></span>
 									<h3>Linux</h3>
 									<p>
-										<strong>0.2.2</strong> - archiwum źródłowe (.tar.gz)
+										<strong>0.2.2</strong> - <span class="trn">archiwum źródłowe (.tar.gz)</span>
 										<a href="https://github.com/QNapi/qnapi/releases/download/0.2.2/qnapi-0.2.2.tar.gz" class="button scrolly">
-											<span class="icon fa-download"></span> Pobierz
+											<span class="icon fa-download"></span> <span class="trn">Pobierz</span>
 										</a>
 									</p>
 									<p style="margin-bottom: 0.5em">
-										<a href="https://aur.archlinux.org/packages/qnapi">PKGBUILD</a> dla
+										<a href="https://aur.archlinux.org/packages/qnapi">PKGBUILD</a> <span class="trn">dla</span>
 										<nobr>
 											<a href="http://www.archlinux.org"><img src="images/archlinux.png" class="pkgicon" />ArchLinux</a>.
 										</nobr>
 										
 									</p>
 									<p style="margin-bottom: 0.5em">
-										Pakiety <a href="https://launchpad.net/~krzemin/+archive/ubuntu/qnapi">PPA</a> dla
+										<span class="trn">Pakiety <a href="https://launchpad.net/~krzemin/+archive/ubuntu/qnapi">PPA</a> dla</span>
 										<nobr>
 											<a href="http://www.ubuntu.com">
 											<img src="images/ubuntu.png" class="pkgicon" />Ubuntu</a>:
@@ -386,7 +378,7 @@ sudo apt-get install qnapi</pre>
 						</div>
 					</div>
 					<footer>
-						<p>Zobacz także <a href="https://github.com/QNapi/qnapi/releases/">pozostałe wydania</a></p>
+						<p><span class="trn">Zobacz także</span> <a href="https://github.com/QNapi/qnapi/releases/" class="trn">pozostałe wydania</a></p>
 					</footer>
 				</article>
 			</div>
@@ -395,39 +387,26 @@ sudo apt-get install qnapi</pre>
 			<div class="wrapper style1">
 				<article id="help" class="container 90%">
 					<header>
-						<h2>Pomoc</h2>
+						<h2 class="trn">Pomoc</h2>
 					</header>
 					<div>
 						<div class="row">
 							<div class="6u 12u(mobile)">
-								<h4>Jeśli potrzebujesz pomocy...</h4>
+								<h4 class="trn">Jeśli potrzebujesz pomocy...</h4>
 								<ul class="default" style="text-align: left">
 									<!--<li>
 										przejrzyj oficjalną <a href="https://github.com/QNapi/qnapi/wiki">Dokumentację</a> i FAQ
 									</li>-->
-									<li>
-										sprawdź czy ktoś miał (lub nadal ma) podobny problem, przeglądając
-										<a href="https://github.com/QNapi/qnapi/issues?q=is%3Aissue">zgłoszenia</a>
-									</li>
-									<li>
-										jeśli nie rozwiążesz problemu, <a href="https://github.com/QNapi/qnapi/issues/new">dodaj</a>
-										nowe zgłoszenie, dokładnie opisując swój problem i podając jak najwięcej informacji
-									</li>
+									<li class="trn">sprawdź czy ktoś miał (lub nadal ma) podobny problem, przeglądając <a href="https://github.com/QNapi/qnapi/issues?q=is%3Aissue">zgłoszenia</a></li>
+									<li class="trn">jeśli nie rozwiążesz problemu, <a href="https://github.com/QNapi/qnapi/issues/new">dodaj</a>nowe zgłoszenie, dokładnie opisując swój problem i podając jak najwięcej informacji</li>
 								</ul> 
 							</div>
 
 							<div class="6u 12u(mobile)">
-								<h4>Jeśli znajdziesz błąd w programie...</h4>
+								<h4 class="trn">Jeśli znajdziesz błąd w programie...</h4>
 								<ul class="default" style="text-align: left">
-									<li>
-										<a href="https://github.com/QNapi/qnapi/issues?q=is%3Aissue+label%3Abug">sprawdź</a>
-										czy ktoś inny nie zgłosił podobnego błędu i czy nie został już naprawiony
-									</li>
-									<li>
-										jeśli nie, <a href="https://github.com/QNapi/qnapi/issues/new">dodaj</a> nowe zgłoszenie
-										dokładnie opisując okoliczności wystąpienia błędu, podając szczegółowe informacje o wersji
-										programu, systemie, itd.
-									</li>
+									<li class="trn"><a href="https://github.com/QNapi/qnapi/issues?q=is%3Aissue+label%3Abug">sprawdź</a> czy ktoś inny nie zgłosił podobnego błędu i czy nie został już naprawiony</li>
+									<li class="trn">jeśli nie, <a href="https://github.com/QNapi/qnapi/issues/new">dodaj</a> nowe zgłoszenie dokładnie opisując okoliczności wystąpienia błędu, podając szczegółowe informacje o wersji programu, systemie, itd.</li>
 								</ul> 
 							</div>
 						</div>
@@ -439,8 +418,8 @@ sudo apt-get install qnapi</pre>
 			<div class="wrapper style4">
 				<article id="donate" class="container">
 					<header>
-						<h3>Wsparcie</h3>
-						<p>Jeśli chcesz wspomóc dalszy rozwój programu, możesz to zrobić kilkając w poniższy przycisk.</p>
+						<h3 class="trn">Wsparcie</h3>
+						<p class="trn">Jeśli chcesz wspomóc dalszy rozwój programu, możesz to zrobić kilkając w poniższy przycisk.</p>
 					</header>
 
 					<div>
@@ -460,7 +439,7 @@ sudo apt-get install qnapi</pre>
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; QNapi 2008-2016. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; QNapi 2008-2017. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 				</article>
@@ -468,6 +447,15 @@ sudo apt-get install qnapi</pre>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+
+			<script src="assets/js/jquery.translate.js"></script>
+			<script src="assets/js/translation.dict.js"></script>
+			<script>
+				var browserLang = window.navigator.userLanguage || window.navigator.language;
+				var trnLang = browserLang.toLowerCase().indexOf("pl") >= 0 ? "pl" : "en";
+			    var translator = $('body').translate({lang: trnLang, t: dict});
+			</script>
+
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/skel-viewport.min.js"></script>
