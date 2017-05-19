@@ -31,6 +31,9 @@ var dict = {
 "Nowości": {
   en: "News"
 },
+"QNapi 0.2.3 wydane. Program został przetłumaczony na jęz. angielski i włoski." : {
+  en: "QNapi 0.2.2 released. It was translated to English and Italian languages."
+},
 "QNapi w wersji 0.2.2 wydane.": {
   en: "QNapi 0.2.2 was released."
 },
