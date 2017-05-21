@@ -133,6 +133,9 @@ var dict = {
 "archiwum źródłowe (.tar.gz)": {
   en: "source tarball (.tar.gz)"
 },
+"plik binarny AppImage (x86_64)": {
+  en: "binary AppImage file (x86_64)"
+},
 "dla": {
   en: "for"
 },
