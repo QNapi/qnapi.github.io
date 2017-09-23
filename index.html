@@ -438,7 +438,7 @@ sudo apt-get install qnapi</pre>
 
 					<div>
 						<div class="row">
-							<div class="12u">
+							<div class="4u">
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -449,6 +449,41 @@ sudo apt-get install qnapi</pre>
 </form>
 
 							</div>
+
+							<script src="assets/coinwidget/coin.js"></script>
+
+							<div class="4u">
+								<script>
+									CoinWidgetCom.go({
+										wallet_address: '12Z8ZoaSLwtpYQoKnnYrFmgR9M3g51Ubh7',
+										currency : 'bitcoin',
+										counter : 'hide',
+										lbl_button : 'Donate with BTC',
+										lbl_count : 'payments',
+										lbl_amount : 'BTC',
+										lbl_address : 'QNapi Bitcoin donation address:',
+										qrcode : false,
+										decimals : 0
+									});
+								</script>
+							</div>
+
+							<div class="4u">
+								<script>
+									CoinWidgetCom.go({
+										wallet_address: 'LM4mQH1JaMsvWCBZR4txR1Q9Qr2yK7BxcW',
+										currency : 'litecoin',
+										counter : 'hide',
+										lbl_button : 'Donate with LTC',
+										lbl_count : 'payments',
+										lbl_amount : 'LTC',
+										lbl_address : 'QNapi Litecoin donation address:',
+										qrcode : false,
+										decimals : 0
+									});
+								</script>
+							</div>
+
 						</div>
 					</div>
 					<footer>
